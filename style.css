@@ -2,12 +2,19 @@
     font-family: 'FontAwesome';
     src: url(font/FontAwesome.otf);
 }
+
 @font-face {
     font-family: 'fontawesome-webfont';
     src: url(font/fontawesome-webfont.ttf);
 }
+
 @font-face {
     font-family: 'opensans-regular-webfont';
     src: url(font/opensans-regular-webfont.ttf);
 }
 
+
+body {
+    font-family: 'fontawesome-webfont';
+    color: #334240;
+}
