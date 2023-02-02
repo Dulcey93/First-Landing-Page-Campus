@@ -7,19 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>SandBox</title>
 </head>
 
 <body>
     <div>
-        
+
     </div>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">AULAIDEAL.COM</a>
+                <a class="navbar-brand font-weight-bold" href="#">AULAIDEAL.COM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -27,7 +29,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navg navbar-nav ml-auto">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">NOSOTROS </a>
                         </li>
@@ -47,62 +49,74 @@
     </header>
     <!-- ======= Hero Section ======= -->
     <div class="hero">
-        <h2>Bievenidos a nuestro estudio</h2>
-        <h1>ENCANTADOS DE CONOCERTE</h1>
-        <a href="#" class="btn contacto";>PONTE EN CONTACTO</a>        
+        <h4 class="m-0 p-0">Bievenidos a nuestro estudio</h4>
+        <h1 class="m-0 p-0">ENCANTADOS DE CONOCERTE</h1>
+        <a href="#" class="btn contacto";>PONTE EN CONTACTO</a>
     </div>
+    <section class="about">
+        <div class="about-content">
+            <img src="images/nosotros.svg" alt="">
+            <h1>¿QUIENES SOMOS?</h1>
+            <p>LPonemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con super-
+                visión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación,
+                diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps
+                diseña-
+                das por nosotros y avaladas por nuestros años de experiencia.</p>
+            <a href="#" class="btn brand">MÁS INFORMACIÓN</a>
+        </div>
+    </section>
 
-    <div class="about">
-        <h1>¿QUIENES SOMOS?</h1>
-        <p>LPonemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con super-
-            visión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación,
-            diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseña-
-            das por nosotros y avaladas por nuestros años de experiencia.</p>
-        <a href="#" class="btn brand">MÁS INFORMACIÓN</a>        
-    </div>
     <!-- ======= services Section ======= -->
-    <div class="container my-5">
+    <div class="my-5">
         <section>
-            <div class="text-center mb-5 col-md-10 mx-auto">
-                <h2 class="font-weight display-9 text-capitalize">NUESTROS SERVICIOS</h2>
+            <div>
                 <div class="cajas">
+                    <h2 class="cajas text-center font-weight display-9 text-capitalize">NUESTROS SERVICIOS</h2>
                     <div class="caja">
                         <i class="fas fa-suitcase img"></i>
-                        <h3 class="">Lorem ipsum dolor sit amet.</h3>
+                        <h4 class="font-weight-bold">Aplicaciones para la nube</h4>
                         <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
                     </div>
                     <div class="caja">
                         <i class="fas fa-suitcase img"></i>
-                        <h3 class="">Lorem ipsum dolor sit amet.</h3>
-                        <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                        <h4 class="font-weight-bold">Fábrica de software</h4>
+                        <p>Servicios de mejora correctiva y evolutiva para sus aplicaciones.</p>
                     </div>
                     <div class="caja">
                         <i class="fas fa-suitcase img"></i>
-                        <h3 class="">Lorem ipsum dolor sit amet.</h3>
-                        <p>Para empresa que requiera ampliar sus plataformas de gestión.</p>
+                        <h4 class="font-weight-bold">Diseño personalizado</h4>
+                        <p>Customiza hasta el último píxel de tu App. Inﬁnitas Posibilidades.</p>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <div class="proyects">
-        <h1>¿QUIENES SOMOS?</h1>
-        <p>LPonemos a tu alcance un servicio adaptado a tus necesidades, desde una consultoría integral con super-
-            visión de todos y cada uno de los pasos que has de seguir para crear un negocio actual (comunicación,
-            diseño corporativo, tecnologías...) a productos adaptados a metodologías ágiles de creación de apps diseña-
-            das por nosotros y avaladas por nuestros años de experiencia.</p>
-        <a href="#" class="btn-brand">MÁS INFORMACIÓN</a>        
+    <!-- ======= proyects Section ======= -->
+
+    <div class="proyecto">
+        <div class="proyectos">
+            <h2 class="text-center font-weight display-9 text-capitalize">ÚLTIMOS PROYECTOS</h2>
+            <img src="/images/proyecto1.svg" alt="">
+            <img src="/images/proyecto2.svg" alt="">
+            <img src="/images/proyecto3.svg" alt="">
+            <img src="/images/proyecto4.svg" alt="">
+            <img src="/images/proyecto5.svg" alt="">
+            <img src="/images/proyecto6.svg" alt="">
+        </div>
+
     </div>
-
     <footer>
-
+        <div class="final">
+            <h6 class="p-0 m-0">2016 © NETWORK Todos los derechos reservados</h6>
+        </div>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="/js/jquery-3.2.1.slim.min.js"></script>
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
